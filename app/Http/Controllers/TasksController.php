@@ -22,7 +22,7 @@ class TasksController extends Controller
     }
 
     public function store() {
-        return request()->validate([
+        request()->validate([
             'description' => ['required', 'max:255'],
         ]);
 
