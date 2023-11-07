@@ -21,7 +21,6 @@
                                 @method('PATCH')
                                 @csrf
                                 <button type="submit" class="btn btn-success">Mark as completed</button>
-                                <a href="{{ route('tasks.edit', $task->id) }}" class="btn btn-primary">Edit</a>
                             </form>
                         </div> 
                     @else

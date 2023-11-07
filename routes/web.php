@@ -20,8 +20,6 @@ Route::get('/tasks', [TasksController::class, 'index']);
 
 Route::get('/tasks/create', [TasksController::class, 'create']);
 
-Route::get('/tasks/edit/{id}', [TasksController::class, 'edit'])->name('tasks.edit');
-
 Route::post('/tasks', [TasksController::class, 'store']);
 
 Route::patch('tasks/{id}', [TasksController::class, 'update']);
