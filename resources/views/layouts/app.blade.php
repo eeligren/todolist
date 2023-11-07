@@ -17,7 +17,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" href="/tasks/create">New Task</a>
+                <a class="nav-link" href="/tasks/create">New Task</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/">All Tasks</a>
